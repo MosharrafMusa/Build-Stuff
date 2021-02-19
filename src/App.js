@@ -1,8 +1,9 @@
+import LearnJSX from "./basicStuff/learnJSX";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <LearnJSX/>
     </div>
   );
 }
