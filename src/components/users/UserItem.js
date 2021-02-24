@@ -11,9 +11,9 @@ class UserItem extends Component {
                 alt=""
                 className='round-img'
                 style ={{width:'60px'}}/>
-                <h3>{this.login}</h3>
+                <h3>{login}</h3>
                 <div>
-                    <a href={this.html_url} className="btn btn-dark btn-sm my-1">More</a>
+                    <a href={html_url} className="btn btn-dark btn-sm my-1">More</a>
                 </div>
             </div>
         )
