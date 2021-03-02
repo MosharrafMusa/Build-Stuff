@@ -1,9 +1,9 @@
 import './App.css'
 import React, {Component} from 'react'
 import Navbar from './components/layout/Navbar'
-import Users from './components/users/Users'
+// import Users from './components/users/Users'
 import axios from 'axios'
-import MyPhoto from './components/users/MyPhoto'
+import MyFetch from './components/users/MyFetch'
 
 export default class App extends Component {
   state = {
@@ -22,8 +22,7 @@ export default class App extends Component {
      <Navbar title = 'Github Finder' icon = 'fab fa-github'/>
      <div className='container'>
      {/* <Users loading={this.state.loading} users = {this.state.users}/> */}
-     <MyPhoto/>
-     
+     <MyFetch/>
      </div>
     </div>
   );
