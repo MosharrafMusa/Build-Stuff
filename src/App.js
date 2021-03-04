@@ -21,7 +21,7 @@ export default class App extends Component {
   return (
     <div className="App">
      
-     <Hello/>
+     <Hello name='Mosharraf' age = "50"/>
     </div>
   );
 }

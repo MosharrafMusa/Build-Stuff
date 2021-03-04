@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Hello =()=>{
+const Hello =(props)=>{
     return (
-        <div><p>Hello</p></div>
+        <div><p>Hello {props.name} {props.age}</p></div>
     )
 
 }
