@@ -5,6 +5,7 @@ import Navbar from './components/layout/Navbar'
 import axios from 'axios'
 import MyFetch from './components/users/MyFetch'
 import Hello from './components/users/Hello'
+import LearnProps from './components/learnProps/LearnProps'
 
 export default class App extends Component {
   state = {
@@ -22,7 +23,8 @@ export default class App extends Component {
   return (
     <div className="App">
      
-     <Hello name='Mosharraf' age = "50"/>
+     {/* <Hello name='Mosharraf' age = "50"/> */}
+     <LearnProps text = {'I am the 1st child'}/>
     </div>
   );
 }
