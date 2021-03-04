@@ -19,12 +19,12 @@ export default class App extends Component {
     console.log(res.data)
   }
   render(){
-    
+   const myinfo = {text:"i am the first child", age: 30} 
   return (
     <div className="App">
      
      {/* <Hello name='Mosharraf' age = "50"/> */}
-     <LearnProps text = {'I am the 1st child'}/>
+     <LearnProps info = {myinfo}/>
     </div>
   );
 }

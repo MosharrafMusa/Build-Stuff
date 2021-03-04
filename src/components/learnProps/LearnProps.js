@@ -3,7 +3,7 @@ import React from 'react'
 const LearnProps =(props)=>{
 
     return(
-        <div>{props.text}</div>
+        <div>{props.info.age}</div>
 
     )
 }
