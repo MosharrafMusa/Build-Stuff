@@ -6,6 +6,7 @@ import axios from 'axios'
 import MyFetch from './components/users/MyFetch'
 import Hello from './components/users/Hello'
 import LearnProps from './components/learnProps/LearnProps'
+import Counter from './components/react-mod-001/Counter'
 
 export default class App extends Component {
   state = {
@@ -24,7 +25,7 @@ export default class App extends Component {
     <div className="App">
      
      {/* <Hello name='Mosharraf' age = "50"/> */}
-     <LearnProps info = {myinfo}/>
+     <Counter/>
     </div>
   );
 }
