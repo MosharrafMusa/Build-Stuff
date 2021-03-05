@@ -8,6 +8,7 @@ import Hello from './components/users/Hello'
 import LearnProps from './components/learnProps/LearnProps'
 import Counter from './components/react-mod-001/Counter'
 import Input from './components/react-mod-001/Input'
+import Mood from './components/react-mod-001/Mood'
 
 export default class App extends Component {
   state = {
@@ -28,6 +29,7 @@ export default class App extends Component {
      {/* <Hello name='Mosharraf' age = "50"/> */}
      <Counter/>
      <Input/>
+     <Mood/>
     </div>
   );
 }
