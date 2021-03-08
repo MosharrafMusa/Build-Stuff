@@ -10,6 +10,7 @@ import Counter from './components/react-mod-001/Counter'
 import Input from './components/react-mod-001/Input'
 import Mood from './components/react-mod-001/Mood'
 import Programmers from './components/react-mod-001/Programmers'
+import Spinner from './components/react-mod-001/Spinner'
 
 export default class App extends Component {
   state = {
@@ -32,6 +33,7 @@ export default class App extends Component {
      <Input/>
      <Mood/>
      <Programmers/>
+     <Spinner/>
     </div>
   );
 }
