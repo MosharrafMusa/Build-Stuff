@@ -11,6 +11,7 @@ import Input from './components/react-mod-001/Input'
 import Mood from './components/react-mod-001/Mood'
 import Programmers from './components/react-mod-001/Programmers'
 import Spinner from './components/react-mod-001/Spinner'
+import Squares from './components/react-mod-001/Squares'
 
 export default class App extends Component {
   state = {
@@ -34,6 +35,7 @@ export default class App extends Component {
      <Mood/>
      <Programmers/>
      <Spinner/>
+     <Squares/>
     </div>
   );
 }
