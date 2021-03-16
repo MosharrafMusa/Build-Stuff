@@ -1,41 +1,15 @@
 
 import React, {Component} from 'react'
-import Navbar from './components/layout/Navbar'
-// import Users from './components/users/Users'
-import axios from 'axios'
-import MyFetch from './components/users/MyFetch'
-import Hello from './components/users/Hello'
-import LearnProps from './components/learnProps/LearnProps'
-import Counter from './components/react-mod-001/Counter'
-import Input from './components/react-mod-001/Input'
-import Mood from './components/react-mod-001/Mood'
-import Programmers from './components/react-mod-001/Programmers'
-import Spinner from './components/react-mod-001/Spinner'
-import Squares from './components/react-mod-001/Squares'
+
+import Lession01 from './components/webDevSimplified/Lession01'
 
 export default class App extends Component {
-  state = {
-    users: [],
-    loading: false
-  }
-  async componentDidMount(){
-    this.setState({loading: true});
-    const res = await axios.get(`https://api.github.com/users?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`)
-    this.setState({users:res.data, loading:false})
-    console.log(res.data)
-  }
+  
   render(){
-   const myinfo = {text:"i am the first child", age: 30} 
+   
   return (
     <div className="App">
-     
-     {/* <Hello name='Mosharraf' age = "50"/> */}
-     <Counter/>
-     <Input/>
-     <Mood/>
-     <Programmers/>
-     <Spinner/>
-     <Squares/>
+    <Lession01/>
     </div>
   );
 }
