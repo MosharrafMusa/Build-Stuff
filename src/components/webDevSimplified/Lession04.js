@@ -1,11 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function Lession04() {
+    const [count, setCount] = useState(0)
     return (
         <div>
-            <button>-</button>
-            <span>count: 0</span>
-            <button>+</button>
+            <button onClick = {()=>setCount(count-1)}>-</button>
+            <span>count: {count}</span>
+            <button onClick = {()=>setCount(count+1)}>+</button>
         </div>
     )
 }
