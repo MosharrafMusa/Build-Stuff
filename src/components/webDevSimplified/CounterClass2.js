@@ -7,15 +7,16 @@ export class CounterClass2 extends Component {
         this.state = {
             count: props.initialCount
         }
-
     }
     render() {
         return (
-            <div>
-                <button onClick = {()=>this.changeCount(-1)}>-</button>
+            
+                <div>
+                <button  onClick = {()=>this.changeCount(-1)}>-</button>
                 <span>{this.state.count}</span>
                 <button onClick = {()=>this.changeCount(1)}>+</button>
             </div>
+            
         )
     }
     changeCount(amount){
